@@ -1,0 +1,37 @@
+.feedback{
+    padding-bottom: 71px;
+    &__answer{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 102px;
+    }
+    &__img{
+        margin-right: 62px;
+        img{
+            margin-top: 20px;
+        }
+    }
+    &__name{
+        margin: 0;
+        display: block;
+        font-size: 18px;
+        font-weight: 500;
+        color: #0d0d0d;
+    }
+    &__status{
+        margin: 0;
+        margin-top: 5px;
+        display: block;
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+    }
+    &__descr{
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+
+}

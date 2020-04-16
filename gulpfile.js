@@ -9,7 +9,8 @@ gulp.task('server', function() {
 
     browserSync({
         server: {
-            baseDir: "src"
+            baseDir: "src",
+            host: "192.168.1.124"
         }
     });
 

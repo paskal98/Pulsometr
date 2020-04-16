@@ -1,21 +1,24 @@
 .promo {
     min-height: 650px;
-    padding: 21px 0 93px 0;
-    background: url(../img/main.jpg) center (center/cover) no-repeat;
-    &__wrapper {
+    padding: 21px 0 93px 0 ;
+    background: url(../../img/main.jpg) center (center/cover) no-repeat;
+
+    &__wrapper{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         margin-top: 90px;
     }
-    &__header {
+
+    &__header{
         color: #ffffff;
         font-size: 42px;
+        line-height: 42px;
         font-weight: 700;
         text-transform: uppercase;
-        line-height: 42px;
     }
-    &__subheader {
+
+    &__subheader{
         margin-top: 17px;
         color: #ffffff;
         font-size: 24px;
@@ -23,33 +26,42 @@
         font-weight: 500;
         text-transform: uppercase;
     }
-    &__icons {
+
+    &__icons{
         margin-top: 65px;
         width: 425px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
-    &__icon {
+
+    &__icon{
         width: 108px;
         text-align: center;
         color: #ffffff;
         font-size: 14px;
         font-weight: 500;
-        img {
+        img{
             display: block;
             margin: 0 auto;
             margin-bottom: 20px;
         }
     }
-    &__link {
-        color: #ffffff;
+
+    &__link{
+        color: #fff;
         font-size: 16px;
         font-weight: 500;
         margin-top: 18px;
-        a {
-            color: #ffffff;
+        a{
+            color: #fff;
             text-transform: uppercase;
             text-decoration: underline;
         }
     }
+
+    &__icons_for_smart{
+        display: none;
+    }
+
 }

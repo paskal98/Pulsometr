@@ -1,0 +1,270 @@
+
+@media (max-width: 1120px){
+    .footer{
+        &__info{
+            position: static;
+            transform: none;
+            padding-left: 0;
+            padding-right: 0;
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 992px){
+    .promo{
+        @include paddingscreen;
+    }
+    .advantages{
+        @include paddingscreen;
+    }
+    .consultation{
+        @include paddingscreen;
+    }
+
+    .feedback{
+        padding-left: 50px;
+        padding-right: 50px;
+        &__answer{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__img{
+            margin: 0;
+            margin-bottom: 25px;
+            img {
+                margin-top: 0;
+            }
+        }
+        &__img-first{
+            img{
+                margin-top: 20px;
+            }
+        }
+    }
+
+    
+}
+
+@media (max-width: 900px){
+    .catalog{
+        &__content{
+            justify-content: space-around;
+        }
+    }
+}
+
+@media (max-width: 767px){
+
+    .carousel{
+        display: none;
+    }
+
+    .promo{
+        padding-bottom: 60px;
+        .header{
+            &__official{
+                display: none;
+            }
+        }
+        &__wrapper{
+            align-items: center;
+            margin-top: 60px;
+        }
+        &__header{
+            font-size: 32px;
+            line-height: 32px;
+        }
+        &__subheader{
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+
+    .advantages{
+        &__wrapper{
+            margin-top: 50px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item{
+            margin-top: 20px;
+            &:nth-child(1){
+                margin-top: 0;
+            }
+        }
+    }
+
+    .title{
+        font-size: 24px;
+    }
+
+    .title_cat{
+        font-size: 20px; 
+        margin-top: 20px;
+    }
+
+    .consultation{
+        &__descr{
+            font-size: 18px;
+            line-height: 18px;
+        }
+    }
+
+    .catalog{
+        &__tabs{
+            flex-direction: column;
+            height: 200px;
+            justify-content: space-between;
+        }
+    }
+
+    .feedback{
+        &__name{
+            text-align: center;
+        }
+        &__status{
+            text-align: center;
+        }
+        &__descr{
+            text-align: center;
+        }
+    }
+
+}
+
+
+@media (max-width: 575px){
+     .promo{
+         padding-bottom: 20px;
+         .header{
+             flex-direction: column;
+             &__contacts{
+                 margin-top: 20px;
+             }
+             &__phone{
+                 font-size: 17px;
+             }
+             &__logo{
+                 width: 220px;
+             }
+         }
+         &__wrapper{
+             margin-top: 40px;
+         }
+         &__header{
+            text-align: center;
+            font-size: 24px;
+            line-height: 24px;
+        }
+        &__subheader{
+            text-align: center;
+            font-size: 15px;
+            line-height: 15px;
+        }
+        &__icons{
+            width: 100%;
+            margin-top: 30px;
+            flex-direction: column;
+        }
+        &__icon{
+            &:nth-child(2){
+                display: none;
+            }
+            &:nth-child(3){
+                display: none;
+            }
+        }
+        &__icons_for_smart{
+            margin-top: 20px;
+            max-width: 320px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__icon_for_smart{
+            width: 108px;
+            text-align: center;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 500;
+            img{
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+        }
+     }
+
+     .button_main{
+         width: 220px;
+         font-size: 14px;
+     }
+     
+     .button_submit{
+         font-size: 13px;
+     }
+
+     .title{
+        font-size: 22px;
+    }
+
+    .title_left{
+        font-size: 18px;
+    }
+
+    .title_cat{
+        font-size: 20px; 
+    }
+
+    .consultation{
+        &__descr{
+            font-size: 15px;
+            line-height: 15px;
+        }
+    }
+
+    .feed-form{
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .feedback{
+        padding-left: 23px;
+        padding-right: 23px;
+    }
+
+    .footer{
+        &__addr{
+            font-size: 16px;
+            line-height: 16px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        &__phone{
+            font-size: 16px;
+            line-height: 16px;
+        }
+    }
+
+}
+
+@media (max-width: 319px){
+    .catalog{
+        &__tab{
+            width: 190px;
+        }
+    }
+    .catalog-item{
+        &__list{
+            height: 528px;
+        }
+    }
+
+    .feedback{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
