@@ -248,6 +248,19 @@
         }
     }
 
+    .modal__close{
+        top: 15px;
+        right: 13px;
+    }
+
+    
+
+    #consultation, #order, #thanks{
+        width: 290px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
 }
 
 @media (max-width: 319px){
@@ -265,6 +278,12 @@
     .feedback{
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    #consultation, #order, #thanks{
+        width: 240px;
+        padding-left: 14px;
+        padding-right: 14px;
     }
 
 }
